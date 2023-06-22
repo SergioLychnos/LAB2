@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));     
 
 app.get("/", (req, res) =>{                                               
-    res.send(`<h1>WEB222 LAB2<h1>`);
+    res.send(`<h1>Hello WEB222 LAB2<h1>`);
 });
 
 
