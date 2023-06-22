@@ -1,5 +1,7 @@
 
 //Name: Sergio Dos Santos
+// cyclic url : https://jade-tame-piglet.cyclic.app/
+// github url: https://github.com/SergioLychnos/LAB2
 
 
 var HTTP_PORT = process.env.PORT || 3000;
@@ -20,3 +22,5 @@ app.get("/", (req, res) =>{
 const server = app.listen(HTTP_PORT, () => {
     console.log(`Listening on port ${HTTP_PORT}`);
 });
+
+
